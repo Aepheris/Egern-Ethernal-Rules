@@ -1,9 +1,9 @@
 # NAME: AppleIntelligence
 # AUTHOR: Aepheris
 # REPO: https://github.com/Serein1202/ios_rule_script-blackmatrix7
-# UPDATED: 2026-06-15 17:25:13
-# MERGED: 2026-06-15 17:56
-# TOTAL: 35
+# UPDATED: 2026-07-09 22:15:13
+# MERGED: 2026-07-09 22:25:13
+# TOTAL: 36
 
 # ===== Apple Intelligence 核心域名 =====
 DOMAIN,appleintelligence.apple.com
@@ -58,6 +58,7 @@ DOMAIN-KEYWORD,appleintelligence
 DOMAIN-KEYWORD,genai
 DOMAIN-KEYWORD,siri-ai
 DOMAIN-KEYWORD,siri_ai
+DOMAIN-KEYWORD,siri
 DOMAIN-KEYWORD,applellm
 DOMAIN-KEYWORD,apple-llm
 DOMAIN-KEYWORD,afm-cloud
