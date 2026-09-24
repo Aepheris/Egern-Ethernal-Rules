@@ -1,0 +1,71 @@
+no_resolve: true
+
+domain_suffix_set:
+  # Meta AI / Muse / Llama
+  - meta.ai
+  - meta.com
+  - llama.com
+  - wit.ai
+
+  # Facebook / Messenger
+  - facebook.com
+  - facebook.net
+  - facebook.org
+  - facebook.design
+  - fb.com
+  - fb.me
+  - fb.watch
+  - fbmessenger.com
+  - messenger.com
+  - m.me
+
+  # Meta CDN / Infrastructure
+  - fbcdn.net
+  - fbcdn.com
+  - fbsbx.com
+  - fbsbx.net
+  - fbinfra.net
+  - fbidb.io
+
+  # Instagram
+  - instagram.com
+  - instagr.am
+  - cdninstagram.com
+  - ig.me
+  - igcdn.com
+  - igsonar.com
+  - igtv.com
+
+  # Threads
+  - threads.com
+  - threads.net
+
+  # WhatsApp
+  - whatsapp.com
+  - whatsapp.net
+  - whatsapp.biz
+  - wa.me
+
+  # Meta Quest / Oculus
+  - oculus.com
+  - oculuscdn.com
+  - oculusvr.com
+
+  # Other Meta services
+  - aboutfacebook.com
+  - internet.org
+  - freebasics.com
+  - freebasics.net
+  - mapillary.com
+  - f8.com
+
+domain_keyword_set:
+  - facebook
+  - instagram
+  - whatsapp
+  - oculus
+
+asn_set:
+  - AS32934
+  - AS54115
+  - AS63293
