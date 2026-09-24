@@ -1,71 +1,69 @@
-no_resolve: true
+# NAME: Meta AI
+# AUTHOR: Aepheris
+# UPDATED: 2026-9-25 02:30:10
+# TOTAL: 41
 
-domain_suffix_set:
-  # Meta AI / Muse / Llama
-  - meta.ai
-  - meta.com
-  - llama.com
-  - wit.ai
+# ===== Meta AI / Muse 系列模型 / Meta Model API / Muse Code =====
+DOMAIN-SUFFIX,meta.ai
 
-  # Facebook / Messenger
-  - facebook.com
-  - facebook.net
-  - facebook.org
-  - facebook.design
-  - fb.com
-  - fb.me
-  - fb.watch
-  - fbmessenger.com
-  - messenger.com
-  - m.me
+# ===== Muse 独立 Agent / Vibes 图像与视频 =====
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,vibes.ai
 
-  # Meta CDN / Infrastructure
-  - fbcdn.net
-  - fbcdn.com
-  - fbsbx.com
-  - fbsbx.net
-  - fbinfra.net
-  - fbidb.io
+# ===== Muse / Meta AI 文件、图片及交互内容 =====
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN-SUFFIX,meta-agents-apps.workers.dev
 
-  # Instagram
-  - instagram.com
-  - instagr.am
-  - cdninstagram.com
-  - ig.me
-  - igcdn.com
-  - igsonar.com
-  - igtv.com
+# ===== Meta 账号 / 身份验证 / AI Studio / 开发者平台 =====
+DOMAIN-SUFFIX,meta.com
 
-  # Threads
-  - threads.com
-  - threads.net
+# ===== Facebook 共用接口 / Graph API / WebSocket / 登录 SDK =====
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.com
 
-  # WhatsApp
-  - whatsapp.com
-  - whatsapp.net
-  - whatsapp.biz
-  - wa.me
+# ===== Meta 共用 CDN / 静态资源 / 图片、音视频与附件 =====
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,oculuscdn.com
 
-  # Meta Quest / Oculus
-  - oculus.com
-  - oculuscdn.com
-  - oculusvr.com
+# ===== 跨 App 的 AI 入口 / 账号联动 / 分享与消息 =====
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.watch
 
-  # Other Meta services
-  - aboutfacebook.com
-  - internet.org
-  - freebasics.com
-  - freebasics.net
-  - mapillary.com
-  - f8.com
+# ===== Llama / 官方模型与数据集下载 =====
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llamameta.net
+DOMAIN-SUFFIX,fbaipublicfiles.com
 
-domain_keyword_set:
-  - facebook
-  - instagram
-  - whatsapp
-  - oculus
+# ===== 官方 AI 研究演示 / SAM / Audio / ImageBind / Animated Drawings =====
+DOMAIN-SUFFIX,metademolab.com
+DOMAIN-SUFFIX,segment-anything.com
+DOMAIN-SUFFIX,makeavideo.studio
+DOMAIN-SUFFIX,facebookresearch.github.io
+DOMAIN-SUFFIX,meta-llama.github.io
 
-asn_set:
-  - AS32934
-  - AS54115
-  - AS63293
+# ===== Wit.ai 语音与自然语言服务 =====
+DOMAIN-SUFFIX,wit.ai
+
+# ===== 网页字体及共用登录入口 =====
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,accounts.google.com
+
+# ===== Muse 支付组件 / Link =====
+DOMAIN,js.stripe.com
+DOMAIN,api.stripe.com
+DOMAIN,hooks.stripe.com
+DOMAIN,m.stripe.network
+DOMAIN-SUFFIX,link.com
