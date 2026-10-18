@@ -1,9 +1,8 @@
 # NAME: AppleIntelligence
 # AUTHOR: Aepheris
 # REPO: https://github.com/Serein1202/ios_rule_script-blackmatrix7
-# UPDATED: 2026-07-09 22:15:13
+# UPDATED: 2026-10-18
 # MERGED: 2026-07-09 22:25:13
-# TOTAL: 36
 
 # ===== Apple Intelligence 核心域名 =====
 DOMAIN,appleintelligence.apple.com
@@ -38,7 +37,7 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,aiplatform.googleapis.com
 
-# ===== Private Relay / iCloud+ 中继（来自Serein1202） =====
+# ===== Private Relay / iCloud+ 中继 =====
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
@@ -53,7 +52,7 @@ DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 # ===== App Store 静态资源 =====
 DOMAIN-SUFFIX,apps.mzstatic.com
 
-# ===== 关键字匹配（兜底新增子域名） =====
+# ===== 关键字匹配 =====
 DOMAIN-KEYWORD,appleintelligence
 DOMAIN-KEYWORD,genai
 DOMAIN-KEYWORD,siri-ai
@@ -63,9 +62,5 @@ DOMAIN-KEYWORD,applellm
 DOMAIN-KEYWORD,apple-llm
 DOMAIN-KEYWORD,afm-cloud
 
-# ===== IP段兜底 =====
+# ===== Apple 自有 IP 段兜底 =====
 IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,142.250.0.0/15,no-resolve
-IP-CIDR,172.217.0.0/16,no-resolve
-IP-CIDR,216.58.192.0/19,no-resolve
-IP-CIDR,74.125.0.0/16,no-resolve
