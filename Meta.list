@@ -56,11 +56,6 @@ DOMAIN-SUFFIX,meta-llama.github.io
 # ===== Wit.ai 语音与自然语言服务 =====
 DOMAIN-SUFFIX,wit.ai
 
-# ===== 网页字体及共用登录入口 =====
-DOMAIN,fonts.googleapis.com
-DOMAIN,fonts.gstatic.com
-DOMAIN,accounts.google.com
-
 # ===== Muse 支付组件 / Link =====
 DOMAIN,js.stripe.com
 DOMAIN,api.stripe.com
