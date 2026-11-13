@@ -1,0 +1,19 @@
+# NAME: Custom Direct
+# AUTHOR: Aepheris
+# UPDATED: 2026-11-13
+# TOTAL: 6
+# Custom DIRECT Rules
+
+# PayTR
+DOMAIN-KEYWORD,paytr
+
+# Oyunfor
+DOMAIN-SUFFIX,oyunfor.com
+
+# Bitget
+DOMAIN-SUFFIX,bitgetapps.com
+DOMAIN-SUFFIX,bitgetapp.com
+
+# T-Mobile / Ultra Mobile
+DOMAIN-KEYWORD,t-mobile
+DOMAIN-KEYWORD,ultramobile
