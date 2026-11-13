@@ -1,11 +1,24 @@
+# NAME: Adults
+# AUTHOR: Aepheris
+# UPDATED: 2026-11-13
+# TOTAL: 25
+# Merged and Deduplicated
+
+# Pornhub
 DOMAIN-KEYWORD,pornhub
+DOMAIN-KEYWORD,phncdn
+DOMAIN-KEYWORD,etahub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,pronstore.com
+DOMAIN-SUFFIX,pornhubapparel.com
+DOMAIN-SUFFIX,pornhub-deutsch.net
 
-DOMAIN-KEYWORD,missav
+# MissAV
+DOMAIN-KEYWORD,missav.
 DOMAIN-SUFFIX,myavlive.com
+DOMAIN-SUFFIX,missav.recombee.com
 DOMAIN-SUFFIX,xxxvjmp.com
 DOMAIN-SUFFIX,xxxivjmp.com
 DOMAIN-SUFFIX,xmavrtracktor.com
@@ -14,9 +27,9 @@ DOMAIN-SUFFIX,nineyu.com
 DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,xhotzcam.com
 
-DOMAIN-SUFFIX,e-hentai.org
-
+# Hentai / Animation
 DOMAIN-KEYWORD,hanime
+DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,kbnmnl.com
 DOMAIN-SUFFIX,img.doppiocdn.com
