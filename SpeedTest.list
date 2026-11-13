@@ -1,0 +1,18 @@
+
+# NAME: SpeedTest
+# AUTHOR: Aepheris
+# UPDATED: 2026-11-13
+# TOTAL: 11
+# SpeedTest / IP Detection
+
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipv6-test.com
+DOMAIN-SUFFIX,netspeedtestmaster.com
+DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtest.macpaw.com
+DOMAIN-SUFFIX,test-ipv4.com
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,whatismyip.com
