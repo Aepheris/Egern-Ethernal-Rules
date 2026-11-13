@@ -1,66 +1,81 @@
-# NAME: AppleIntelligence
-# AUTHOR: Aepheris
-# REPO: https://github.com/Serein1202/ios_rule_script-blackmatrix7
-# UPDATED: 2026-10-18
-# MERGED: 2026-07-09 22:25:13
 
-# ===== Apple Intelligence 核心域名 =====
+# Apple Intelligence & Siri AI
+# Updated: 2026-11-13
+# By:Aepheris
+# Total: 62 Rules
+
+# Apple Intelligence / Siri
+DOMAIN-SUFFIX,api-siri-prod.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN,afm-api.apple.com
+DOMAIN,afm.apple.com
+DOMAIN,afm.cloud.apple.com
 DOMAIN,appleintelligence.apple.com
 DOMAIN,appleintelligence2.apple.com
 DOMAIN,genai.apple.com
-
-# ===== Siri AI / 新版Siri独立App =====
-DOMAIN,siri.apple.com
-DOMAIN,siri-api.apple.com
-DOMAIN,siri-intent.apple.com
-DOMAIN,siri-companion.apple.com
 DOMAIN,intelligence.apple.com
+DOMAIN,siri-api.apple.com
+DOMAIN,siri-companion.apple.com
+DOMAIN,siri-intent.apple.com
 
-# ===== Apple AI 云端模型（AFM） =====
-DOMAIN,afm.apple.com
-DOMAIN,afm-api.apple.com
-DOMAIN,afm.cloud.apple.com
+# Gemini / Google AI
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google.com
+DOMAIN,gemini.apple.com
+DOMAIN,geminiapis.apple.com
+DOMAIN,geminiprops.apple.com
 
-# ===== Apple 官方 API =====
+# Private Cloud Compute / Apple Relay
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN,apple-carry-relay.cloudflare.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.fe2.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+
+# Apple API / CDN / Services
+DOMAIN-SUFFIX,apple.com.akadns.net
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,ls.apple.com
 DOMAIN,api.apple.com
 DOMAIN,api2.apple.com
 DOMAIN,api5.apple.com
 DOMAIN,appleinc.akadns.net
-DOMAIN-SUFFIX,apple.com.akadns.net
+DOMAIN,metrics.icloud.com
+DOMAIN,probe.icloud.com
+DOMAIN,wps.apple.com
 
-# ===== Gemini / Google大模型（Apple-Gemini合作后端） =====
-DOMAIN,gemini.apple.com
-DOMAIN,geminiapis.apple.com
-DOMAIN,geminiprops.apple.com
-DOMAIN-SUFFIX,generativeai.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,aiplatform.googleapis.com
-
-# ===== Private Relay / iCloud+ 中继 =====
+# Additional Apple Domains
 DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.akamaized.net
-DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 
-# ===== App Store 静态资源 =====
-DOMAIN-SUFFIX,apps.mzstatic.com
-
-# ===== 关键字匹配 =====
+# Domain Keywords
+DOMAIN-KEYWORD,afm-cloud
+DOMAIN-KEYWORD,apple-llm
 DOMAIN-KEYWORD,appleintelligence
+DOMAIN-KEYWORD,applellm
 DOMAIN-KEYWORD,genai
+DOMAIN-KEYWORD,siri
 DOMAIN-KEYWORD,siri-ai
 DOMAIN-KEYWORD,siri_ai
-DOMAIN-KEYWORD,siri
-DOMAIN-KEYWORD,applellm
-DOMAIN-KEYWORD,apple-llm
-DOMAIN-KEYWORD,afm-cloud
 
-# ===== Apple 自有 IP 段兜底 =====
-IP-CIDR,17.0.0.0/8,no-resolve
+# Supplemental Siri AI / PCC Domains
+DOMAIN-SUFFIX,issuer.apple.com
+DOMAIN-SUFFIX,aapps.mzstatic.com
+DOMAIN,nlp.apple.com
+DOMAIN,prod.dss.apple.com
+DOMAIN,seed-siri-apple-com.v.aaplimg.com
+DOMAIN,mask-boot.icloud.com
+DOMAIN,mask-canary.icloud.com
+DOMAIN,api.apple-cloudkit.com
