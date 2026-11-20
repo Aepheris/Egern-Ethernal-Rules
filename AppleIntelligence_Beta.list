@@ -1,8 +1,8 @@
 # Apple Intelligence & Siri AI
 # Updated: 2026-11-21
 # By:Aepheris
-# Version: Beta 1.0
-# Total: 60 Rules
+# Version: Beta 2.0
+# Total: 61 Rules
 
 # Apple Intelligence / Siri
 DOMAIN-SUFFIX,api-siri-prod.apple.com
@@ -58,6 +58,7 @@ DOMAIN,wps.apple.com
 
 # Additional Apple Domains
 DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
 
 # Domain Keywords
 DOMAIN-KEYWORD,afm-cloud
