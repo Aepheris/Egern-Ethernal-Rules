@@ -2,79 +2,13 @@
 # Updated: 2026-11-21
 # By:Aepheris
 # Version: Beta 2.0
-# Total: 61 Rules
+# Total: 8 Rules
 
-# Apple Intelligence / Siri
-DOMAIN-SUFFIX,api-siri-prod.apple.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,siri.apple.com
-DOMAIN,afm-api.apple.com
-DOMAIN,afm.apple.com
-DOMAIN,afm.cloud.apple.com
-DOMAIN,appleintelligence.apple.com
-DOMAIN,appleintelligence2.apple.com
-DOMAIN,genai.apple.com
-DOMAIN,intelligence.apple.com
-DOMAIN,siri-api.apple.com
-DOMAIN,siri-companion.apple.com
-DOMAIN,siri-intent.apple.com
-
-# Gemini / Google AI
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,aiplatform.googleapis.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google.com
-DOMAIN,gemini.apple.com
-DOMAIN,geminiapis.apple.com
-DOMAIN,geminiprops.apple.com
-
-# Private Cloud Compute / Apple Relay
-DOMAIN-SUFFIX,apple-relay.akamaized.net
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,mask-h2.icloud.com
-DOMAIN-SUFFIX,mask.icloud.com
-DOMAIN,apple-carry-relay.cloudflare.com
-DOMAIN,mask-api.fe.apple-dns.net
-DOMAIN,mask-api.fe2.apple-dns.net
-DOMAIN,mask-api.icloud.com
-DOMAIN,mask-t.apple-dns.net
-DOMAIN,mask.apple-dns.net
-
-# Apple API / CDN / Services
-DOMAIN-SUFFIX,apple.com.akadns.net
-DOMAIN-SUFFIX,ls.apple.com
-DOMAIN,api.apple.com
-DOMAIN,api2.apple.com
-DOMAIN,api5.apple.com
-DOMAIN,appleinc.akadns.net
-DOMAIN,metrics.icloud.com
-DOMAIN,probe.icloud.com
-DOMAIN,wps.apple.com
-
-# Additional Apple Domains
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,apps.mzstatic.com
-
-# Domain Keywords
-DOMAIN-KEYWORD,afm-cloud
-DOMAIN-KEYWORD,apple-llm
-DOMAIN-KEYWORD,appleintelligence
-DOMAIN-KEYWORD,applellm
-DOMAIN-KEYWORD,genai
-DOMAIN-KEYWORD,siri
-DOMAIN-KEYWORD,siri-ai
-DOMAIN-KEYWORD,siri_ai
-
-# Supplemental Siri AI / PCC Domains
-DOMAIN-SUFFIX,issuer.apple.com
-DOMAIN,nlp.apple.com
-DOMAIN,prod.dss.apple.com
-DOMAIN,seed-siri-apple-com.v.aaplimg.com
-DOMAIN,mask-boot.icloud.com
-DOMAIN,mask-canary.icloud.com
-DOMAIN,api.apple-cloudkit.com
+DOMAIN,api-siri-prod.apple.com
+DOMAIN,guzzoni.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.mask.apple-dns.net
+DOMAIN,apple-relay.akamaized.net
