@@ -1,7 +1,7 @@
 # Apple Intelligence & Siri AI
-# Updated: 2026-11-13
+# Updated: 2026-11-21
 # By:Aepheris
-# Total: 62 Rules
+# Total: 61 Rules
 
 # Apple Intelligence / Siri
 DOMAIN-SUFFIX,api-siri-prod.apple.com
@@ -71,7 +71,6 @@ DOMAIN-KEYWORD,siri_ai
 
 # Supplemental Siri AI / PCC Domains
 DOMAIN-SUFFIX,issuer.apple.com
-DOMAIN-SUFFIX,aapps.mzstatic.com
 DOMAIN,nlp.apple.com
 DOMAIN,prod.dss.apple.com
 DOMAIN,seed-siri-apple-com.v.aaplimg.com
