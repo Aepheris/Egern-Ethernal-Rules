@@ -1,14 +1,21 @@
 # Apple Intelligence & Siri AI
 # Updated: 2026-11-21
 # By:Aepheris
-# Version: Beta 2.0
-# Total: 8 Rules
+# Version: Beta 3.0
+# Total: 15 Rules
 
 DOMAIN,api-siri-prod.apple.com
 DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
-DOMAIN,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN,apple-relay.mask.apple-dns.net
 DOMAIN,apple-relay.akamaized.net
+DOMAIN,apple-carry-relay.cloudflare.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.fe2.apple-dns.net
